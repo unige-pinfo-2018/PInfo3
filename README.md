@@ -4,7 +4,7 @@ This repository contains all sources and config files for the "Projet Informatiq
 
 Contributors of the project are the following :
 
-* Terry Vogelsang (Project Manager / Lead Developer) 
+* Terry Vogelsang (Project Manager / Lead Developer / Supreme Leader) 
    * GitHub : terryvogelsang
 
 * Matteo Besançon (System Administrator)
