@@ -12,6 +12,8 @@
 \usepackage{url}
 \setitemize{noitemsep,topsep=10pt,parsep=10pt,partopsep=0pt}
 \usepackage{authblk}
+\usepackage{titlesec}
+\titleformat{\section}{\normalfont\Large\bfseries}{}{0pt}{}
 
 \setlength\parindent{0pt}
 
@@ -46,6 +48,21 @@
 	\tableofcontents
 	\newpage
 	
+% REVISION HISTORY SECTION $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+		\section{Revision History}
+		
+		\begin{center}
+		\def\arraystretch{1.5}
+            \begin{tabular}{| c | c | c | c |}
+            \hline
+            Date & Version & Description & Author \\ \hline
+            March 13-14th 2018 & 0.1 & Initial Work  & Terry VOGELSANG \\ \hline
+            \end{tabular}
+        \end{center}
+        
+        \newpage
+        
 % INTRO SECTION $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
 	\section{Introduction}
