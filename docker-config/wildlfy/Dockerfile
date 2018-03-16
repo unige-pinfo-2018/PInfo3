@@ -22,3 +22,5 @@ CMD ["/opt/jboss/wildfly/bin/standalone.sh", "--debug", "-b", "0.0.0.0", "-bmana
 expose 8080
 expose 8787
 expose 9990
+
+USER wildfly-logs
